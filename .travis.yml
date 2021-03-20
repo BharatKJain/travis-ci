@@ -6,3 +6,5 @@ deploy:
   username: $AZURE_WA_USERNAME
   password: $AZURE_WA_PASSWORD
   site: webrtctestserver
+  on:
+    all_branches: true
