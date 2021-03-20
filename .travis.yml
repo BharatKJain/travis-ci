@@ -1,2 +1,8 @@
 language: node_js
-node_js: 12.16.1
+node_js: 10.5.2
+
+deploy:
+  provider: azure_web_apps
+  username: $AZURE_WA_USERNAME
+  password: $AZURE_WA_PASSWORD
+  site: webrtctestserver
